@@ -1,0 +1,79 @@
+.registerForm{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  margin: auto;
+}
+
+.inputLine{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.input{
+  height: 65px;
+  width: 41%;
+  padding-left: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.radio{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  width: 99%;
+}
+
+.radioInput{
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.radioInput div{
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.joinAs{
+  font-size: 23px;
+}
+
+.descr{
+  font-size: 13px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.checkbox input{
+  margin-right: 10px;
+}
+
+.createAcc{
+  background-color: #28D2D0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 65px;
+  width: 97%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.error{
+  border: 2px solid red;
+}
